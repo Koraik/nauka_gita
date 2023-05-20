@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-url_strony = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'
+url = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json'
 
 try:
     response = urllib.request.urlopen(url)
